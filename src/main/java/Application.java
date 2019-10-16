@@ -1,7 +1,7 @@
 public class Application {
     public static void main(String[] args) {
 
-        StoreManager.getInstance().getDataAdapter().connect("/home/connor/dev/COMP_3700/activity12/store.db");
+        StoreManager.getInstance().getDataAdapter().connect("/home/connor/dev/COMP_3700/activity12/data/store.db");
 
 /*        ProductModel prod = dao.loadProduct(1); // Apple;
         if (prod != null)
